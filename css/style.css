@@ -1,0 +1,68 @@
+body {
+    background-image: url("../img/world.jpg");
+    color: #fff;
+    text-shadow: 2px 2px 0 #000;
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: rgba(51, 122, 183, 0.7);
+    border: 0 none;
+    border-radius: 10px;
+    box-shadow: 0 0 35px 0;
+    margin: 50px auto;
+    padding: 30px 20px;
+    width: 80%;
+}
+
+.chack-domain {
+    padding: 5px 0;
+    width: 500px;
+    height: 30px;
+    position: relative;
+    float: left;
+    clear: both;
+    line-height: 22px;
+}
+
+.chack-domain input#domain {
+    position: absolute;
+    float: Left;
+    margin-left: 0px;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+    height: 30px;
+    line-height: 18px;
+    padding: 0 2px 0 5px;
+    border-radius:1px;
+  }
+
+  .btn {
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    border-radius:1px;
+  }
+
+  h2, h3 {
+    float: left;
+    clear: both;
+    margin: 20px 0px;
+    color: #fff;
+  }
+
+  #result {
+    float: left;
+    clear: both;
+  }
+
+  span.available {
+    color: #0f0;
+  }
+
+  span.error {
+    color: #f00;
+  }
